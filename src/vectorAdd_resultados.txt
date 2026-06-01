@@ -1,5 +1,0 @@
-========================================
- CUDA BENCHMARK - VECTOR ADD
-========================================
-
-N      CPU(ms)      GPU kernel(ms) GPU total(ms)  Errors  
