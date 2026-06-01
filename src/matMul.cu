@@ -111,7 +111,7 @@ int verificar(const float *cpu,
 
     for(int i=0;i<elementos;i++)
     {
-        if(fabs(cpu[i] - gpu[i]) > 1e-3f)
+        if(fabs(cpu[i] - gpu[i]) > 1e-5f)
         {
             errores++;
         }
